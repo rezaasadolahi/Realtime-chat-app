@@ -21,8 +21,8 @@ export default function Login({ socket }) {
     const Dispatch = useDispatch()
 
     const [user, setUser] = useState({
-        username: 'rezaa1.3',
-        password: '1234'
+        username: '',
+        password: ''
     })
 
     const handleChange = (event) => {
