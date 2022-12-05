@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+    color-scheme: dark;
+}
+
+
+*,
+*::after,
+*::before,
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-user-drag: none !important;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: revert;
+    cursor: url("./assets/mouse_icon/mouse.png"), auto !important;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    overflow-x: hidden;
+    color: #000000;
+}
+
+
+
+
+.Toastify__toast-body {
+    font-size: 18px !important;
+}
+
+input:is([name="firstname"], [name="lastname"]) {
+    text-transform: capitalize;
+}
+
+input[name="username"] {
+    text-transform: lowercase;
+}
+
+#content-chats::-webkit-scrollbar {
+    display: none;
+}
+
+.react-scroll-to-bottom--css-xkqqf-1tj0vk3 {
+    display: none;
+}
+
+
+div[data-testid="flowbite-tooltip"] div ul li:last-of-type:hover {
+    background-color: rgb(255, 0, 0) !important;
+}
+
+
+
+
+#cardProfilePicture {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #ffffff;
+    overflow: hidden;
+    border: 1px solid #0606062b;
+}
+
+#CardsProfile {
+    width: inherit;
+    background-color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1.3);
+}
