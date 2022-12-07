@@ -14,7 +14,7 @@ import App from './App'
 
 
 
-/* // Disable Right Click 
+// Disable Right Click 
 document.addEventListener('contextmenu', (event) => event.preventDefault())
 
 // Disable ctrl and alt key
@@ -65,7 +65,8 @@ document.addEventListener('wheel', (e) => {
   }
 }, {
   passive: false
-}) */
+})
+
 
 
 
